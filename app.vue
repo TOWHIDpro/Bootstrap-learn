@@ -1,14 +1,9 @@
 <template>
-  <div class="container">
+  <div>
     <navbar />
     <NuxtPage />
   </div>
 </template>
-
-<script setup>
-const title = ref('Hello World')
-
-</script>
 
 <script>
 export default {
@@ -17,12 +12,12 @@ export default {
       link: [
         {
           rel: 'stylesheet',
-          href: 'https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css'
+          href: '	https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css'
         }
       ],
       script: [
         {
-          src: "https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js",
+          src: "	https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js",
           type: 'text/javascript'
         },
       ]

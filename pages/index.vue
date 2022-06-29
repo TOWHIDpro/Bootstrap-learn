@@ -10,5 +10,7 @@
                 <li><a class="dropdown-item" href="#">Something else here</a></li>
             </ul>
         </div>
+        <hr>
+        <container-test />
     </div>
 </template>
